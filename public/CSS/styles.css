@@ -1,10 +1,39 @@
 body {
+    background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
+.home_cuotas-tarjeta {
+    font-size: 10px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home_banner {
+    padding-top: 7px;
+}
+
+ul {
+    padding: 0% ;
+}
+
+ul li {
+    list-style-type: none;
+}
+
 h2.titulares {
     font-size: 24px;
+}
+
+.fa-bars {
+    color: #ffffff; 
+    background-color: blue;
+    padding: 8px;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 20%;
 }
 
 #precio {
