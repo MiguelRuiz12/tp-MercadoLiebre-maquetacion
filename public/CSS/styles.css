@@ -1,39 +1,62 @@
+:root {
+    --colorAmarillo: #eac926;
+    --colorAzul: #03264c;
+    --colorCeleste: #1259c3;
+    --coloGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+}
+
 body {
-    background-color: #EAC926;
+    background-color: var(--colorAmarillo);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    width: 180px;
+    padding-top: 30px;
+    margin-left: 30px;
 }
 
 .home_cuotas-tarjeta {
-    font-size: 10px;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .home_banner {
-    padding-top: 7px;
+    display: none;
 }
 
 ul {
-    padding: 0% ;
+    padding: 0;
 }
 
 ul li {
-    list-style-type: none;
+    list-style: none;
 }
 
 h2.titulares {
     font-size: 24px;
 }
 
-.fa-bars {
+.burger-menu {
     color: #ffffff; 
-    background-color: blue;
-    padding: 8px;
-    margin-left: 50%;
-    margin-right: 50%;
+    background-color: var(--colorCeleste);
+    display: block;
+    max-width: 40px;
+    padding: 8px 0;
     border-radius: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+
+.main {
+    text-align: center;
 }
 
 #precio {
@@ -42,4 +65,31 @@ h2.titulares {
 
 #descuento, #descripcion {
     font-size: 16px;
+}
+
+.footer {
+    background-color: var(--colorGrisClaro);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.footer__section {
+    padding: 15px;
+}
+
+.footer__icono {
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer__titulo {
+    line-height: 0;
+}
+
+.footer__copyright {
+    color: var(--coloGrisOscuro);
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 20px;
 }
