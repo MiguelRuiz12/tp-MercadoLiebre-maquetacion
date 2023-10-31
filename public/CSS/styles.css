@@ -18,25 +18,25 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     max-width: 1180px;
-    padding: 0;
 }
 
 .header__logo {
     width: 180px;
-    padding-top: 30px;
-    margin-left: 30px;
+    padding: 15px;
 }
 
 .home_cuotas-tarjeta {
     text-align: center;
-    padding: 0 15px;
+    padding: 20px 0 ;
 }
 
 .home_banner {
-    display: none;
+    width: 100vw;
+    margin: 20px 0;
 }
 
 ul {
+    display: none;
     padding: 0;
 }
 
@@ -46,6 +46,7 @@ ul li {
 
 h2.titulares {
     font-size: 24px;
+    padding: 15px 0;
 }
 
 .burger-menu {
@@ -57,26 +58,28 @@ h2.titulares {
     border-radius: 20%;
     text-align: center;
     font-size: 20px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 90vw;
     justify-content: center;
-    padding-left: 20px;
+    padding: 0 auto ;
 }
 
 .main__section__article { 
     display: block;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     margin: 10px ;
+    
 }
 
 .main__section__article__img {
     width: 100%;
+    justify-content: space-between;
 }
 
 #precio {
@@ -89,6 +92,7 @@ h2.titulares {
 }
 
 #descripcion {
+    display: none;
     font-size: 16px;
     color: var(--coloGrisOscuro);
     margin-top: 10px;
@@ -124,4 +128,55 @@ h2.titulares {
     font-size: 13px;
     text-align: justify;
     margin-left: 15px;
+}
+
+@media (min-width: 361px ){
+
+    .burger-menu {
+        display: none;
+    }
+
+    ul {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .main__section__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    #descripcion {
+        display: block;
+        font-size: 16px;
+        color: var(--coloGrisOscuro);
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 769px ) {
+
+    .header__logo {
+        width: 25%;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .main__section__article {
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    #descripcion {
+        display: block;
+        font-size: 16px;
+        color: var(--coloGrisOscuro);
+        margin-top: 10px;
+    }
+
 }
