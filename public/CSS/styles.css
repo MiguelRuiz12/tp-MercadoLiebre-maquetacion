@@ -21,17 +21,47 @@ body {
 }
 
 .header__logo {
-    width: 180px;
-    padding: 15px;
+    width: 50%;
+    padding: 28px 15px 0;
+   
+}
+
+.header__barra__logo {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.barra__busqueda {
+    position: relative;
+    top: 25%;
+    padding: 15px 0;
+}
+
+.input__barra{
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--colorGrisClaro);
+}
+.barra__busqueda span i {
+    position: absolute;
+    background-color: #ffffff;
+    color: var(--coloGrisOscuro);
+    font-size: 17px;
+    bottom: 22px;
+    right: 20px;
+    cursor: pointer;
 }
 
 .home_cuotas-tarjeta {
+    font-size: 12px;
     text-align: center;
-    padding: 20px 0 ;
+    padding: 15px 0;
 }
 
 .home_banner {
-    width: 100vw;
+    width: 100%;
     margin: 20px 0;
 }
 
@@ -44,9 +74,15 @@ ul li {
     list-style: none;
 }
 
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 h2.titulares {
     font-size: 24px;
     padding: 15px 0;
+    text-align: center;
 }
 
 .burger-menu {
@@ -128,7 +164,7 @@ h2.titulares {
 .footer {
     background-color: var(--colorGrisClaro);
     text-align: center;
-    padding: 55px 0;
+    padding: 55px 0 0 0;
 }
 
 .footer__section {
