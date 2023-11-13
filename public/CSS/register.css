@@ -1,6 +1,6 @@
 .main__register {
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--colorGrisClaro);
     padding: 10px;
 }
 
@@ -35,14 +35,12 @@ hr{
 .form__box--row{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    row-gap: 8px;
+    margin-bottom: 10px;
+    gap: 5px;
+    justify-content: left;
 }
 
-.form__box--row h4{
-    width: 100%;
-}
-.form__label{ 
+.form__label{
     margin-bottom: 25px;
 }
 
@@ -64,4 +62,15 @@ hr{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+}
+
+.button-2 {
+    background-color: var(--colorGrisOscuro);
+    color: #ffffff;
+}
+
+@media (min-width:768px) {
+    .form__box {
+        width: 45%;
+    }
 }

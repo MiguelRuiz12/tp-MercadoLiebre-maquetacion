@@ -2,7 +2,7 @@
     --colorAmarillo: #eac926;
     --colorAzul: #03264c;
     --colorCeleste: #1259c3;
-    --coloGrisOscuro: #666;
+    --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
 }
@@ -54,7 +54,7 @@ body {
 .barra__busqueda span i {
     position: absolute;
     background-color: #ffffff;
-    color: var(--coloGrisOscuro);
+    color: var(--colorGrisOscuro);
     font-size: 17px;
     bottom: 12%;
     right: 2%;
@@ -76,11 +76,11 @@ ul li a {
     text-decoration: none;
 }
 
-h3 {
+h3.titulares {
     width: 100%;
     font-size: 24px;
     padding: 15px 25px;
-    color: var(--coloGrisOscuro);
+    color: var(--colorGrisOscuro);
     text-align: left;
 }
 
@@ -161,14 +161,13 @@ img {
 
 #descripcion {
     font-size: 16px;
-    color: var(--coloGrisOscuro);
+    color: var(--colorGrisOscuro);
     margin: 10px 0;
 }
 
 .footer {
     background-color: var(--colorGrisClaro);
     text-align: center;
-    padding: 55px 0 0 0;
 }
 
 .footer__section {
@@ -187,7 +186,7 @@ img {
 }
 
 .footer__copyright {
-    color: var(--coloGrisOscuro);
+    color: var(--colorGrisOscuro);
     font-size: 13px;
     text-align: justify;
     margin-left: 15px;
@@ -265,7 +264,7 @@ img {
     #descripcion {
         display: block;
         font-size: 16px;
-        color: var(--coloGrisOscuro);
+        color: var(--colorGrisOscuro);
         margin-top: 10px;
     }
 }

@@ -49,24 +49,24 @@
     <main class="main__login">
         <section class="box__login">
             <div>
-                <h3>login</h3>
+                <h3>Login</h3>
                 <hr>
             </div>
             <form class="form" action="/" method="GET"></form>
             <div>
-                <div class="form__box">
+                <div class="form__box-login">
                     <label class="form__label" for="usuario">Nombre de usuario</label>
                     <input class="form__input" type="text" name="usuario" id="usuario" placeholder="Ej. JuanPerez1234">
                     <small class="form__error">Usuario inexistente</small>
                 </div>
-                <div class="form__box">
+                <div class="form__box-login">
                     <label class="form__label" for="password">Contraseña</label>
                     <input class="form__input" type="password" name="password" id="password"
                         placeholder="Ingrese su contraseña">
-                    <small class="form__error">Debe contener mas de 8 caracteres</small>
+                    <small class="form__error">Contraseña incorrecta</small>
                 </div>
-            <div>
-                <a href="/"><button type="submit">Enviar</button></a>
+            <div class="box__end">
+                <a href="/"><button class="button button-1" type="submit">Enviar</button></a>
             </div>
         </section>
     </main>
