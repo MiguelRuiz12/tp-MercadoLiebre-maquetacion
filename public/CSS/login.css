@@ -25,7 +25,7 @@
     border-radius: 5px;
 }
 
-.button-1 {
+.button-1:hover {
     background-color: var(--colorCeleste);
     color: #ffffff;
 }
